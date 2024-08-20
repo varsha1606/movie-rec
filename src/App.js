@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import GenreSelector from './components/GenreSelector';
 import MovieList from './components/MovieList';
-import './App.css'; // Ensure to import the CSS file
+import './App.css'; 
 
-const API_KEY = '73eb8509e618a655e7af04dea5510980'; // Replace with your TMDb API key
+const API_KEY = 'tmdb-key'; // Replace with your TMDb API key
 
 function App() {
   const [genres, setGenres] = useState([]);
