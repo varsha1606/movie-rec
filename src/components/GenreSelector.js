@@ -11,7 +11,7 @@ const GenreSelector = ({ onGenreSelect }) => {
       try {
         const response = await axios.get('https://api.themoviedb.org/3/genre/movie/list', {
           params: {
-            api_key: '73eb8509e618a655e7af04dea5510980' // Replace with your TMDb API key
+            api_key: 'tmbd-key' // Replace with your TMDb API key
           }
         });
         setGenres(response.data.genres);
